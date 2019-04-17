@@ -1,0 +1,2 @@
+lista_prenume(Nume, [student(P,N)|T],Lrez):- lista_prenume(Nume, T,Trez) , (Nume==N -> Lrez = [P|Trez];Lrez = Trez ).
+lista_prenume(_,[],[]).
